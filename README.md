@@ -1,66 +1,51 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+
+<h1 align="center", tex-weight="bold",>Orçamento oficina</h1>
+<br>
+<p>Este projeto foi pensado para realizar orçamentos de uma oficina mecanica aonde contem todos os dados do orçamento seja eles: Cliente, descrição, vendedor, data e hora do orçamento, e o valor a ser pago, e tambem existe a aba de pesquisa de orçamentos para melhor visualização em modo geral, e tambem pesquisa de orçamento especifico de algum vendedor, ou de alguma data especifica.</p>
+
+<h1>Recursos:</h1>
+<br>
+<p> Neste projeto foi utilizado a linguagem principal PHP, e com ela foi utilizada tambem o framework Laravel, e CSS basico para a melhor apresentação do codigo.   
 </p>
 
-## About Laravel
+<h1>Funcionamento do projeto</h1>
+<br>
+<p>
+    O projeto inicialmente no endereço padrao [localhost]http://127.0.0.1:8000/orcamentos (utilizando somente o IP, por padrão ja ira para '/orcamentos', apresentara a tela de cadastro do orçamento:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![image](https://github.com/thithirss/Oficina-Orca/assets/92064189/7d43e828-51a1-4571-9713-1c86b4d966b8)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Assim ficaria o exemplo preenchido:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![image](https://github.com/thithirss/Oficina-Orca/assets/92064189/c2e72ef9-a77a-4f12-b250-54f4899671ad)
 
-## Learning Laravel
+E assim a mensagem apos o cadastro:
+![image](https://github.com/thithirss/Oficina-Orca/assets/92064189/cd6d531d-020d-465c-aa62-7b1b41d77758)
+<br>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Utilizando a URL /pesquisar retornara a pagina de pesquisa para o usuario, para realizar tais pesquisas de orçamento:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+![image](https://github.com/thithirss/Oficina-Orca/assets/92064189/dd6ece3e-0b68-4dc4-9466-83bb1041f21f)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Essa tela contem os parametros de pesquisa como: cliente, vendedor, data inicial e final, no exemplo usarei o parametro de data:
 
-## Laravel Sponsors
+![image](https://github.com/thithirss/Oficina-Orca/assets/92064189/f3d3dff4-974c-4fef-ab19-47b04e8ed695)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+e essa pesquisa me retornará a seguinte tela:
 
-### Premium Partners
+![image](https://github.com/thithirss/Oficina-Orca/assets/92064189/e116d747-91b5-4ff8-822c-ee16e5834b8c)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+que sao todos os cadastros de orçamentos feitos nesses dias, com a opção de ser editado e removido.
+</p>
 
-## Contributing
+<h1>Contato:</h1>
+<p>Se você tiver alguma dúvida, sugestão ou feedback, sinta-se à vontade para entrar em contato conosco por meio das seguintes opções:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Email: thiagovicente2@gmail.com 
+<br>
+Site: https://bit.ly/3Z8Jrne </p>
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<h1>Agradeçimentos</h1>
+<p>Obrigado a todos que leram ate aqui, e espero que gostem deste projeto que acrescentou muito para o meu aprendizado com Laravel! Desejo um otimo dia a todos e que Deus abençoe a cada um de vocês.</p>
